@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8CD95498-54BC-4400-9FE6-D6D00468CDAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLocalizator", "src\NLocalizator\NLocalizator.csproj", "{A9C9FC7E-6F49-4BD5-93DC-92EA5E87A848}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{CABDFD12-D594-480D-A9B7-80CA3C38C45F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLocalizator.Sample", "samples\NLocalizator.Sample\NLocalizator.Sample.csproj", "{435C21D1-7C04-4B90-B5C0-39B8588A9D1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9C9FC7E-6F49-4BD5-93DC-92EA5E87A848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C9FC7E-6F49-4BD5-93DC-92EA5E87A848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C9FC7E-6F49-4BD5-93DC-92EA5E87A848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C9FC7E-6F49-4BD5-93DC-92EA5E87A848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{435C21D1-7C04-4B90-B5C0-39B8588A9D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{435C21D1-7C04-4B90-B5C0-39B8588A9D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{435C21D1-7C04-4B90-B5C0-39B8588A9D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{435C21D1-7C04-4B90-B5C0-39B8588A9D1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9C9FC7E-6F49-4BD5-93DC-92EA5E87A848} = {8CD95498-54BC-4400-9FE6-D6D00468CDAE}
+		{435C21D1-7C04-4B90-B5C0-39B8588A9D1E} = {CABDFD12-D594-480D-A9B7-80CA3C38C45F}
+	EndGlobalSection
+EndGlobal
