@@ -180,7 +180,7 @@ _For more examples, please refer to the [Sample Project](https://github.com/tolg
 - [x] Add language change support
 - [x] Add examples
 - [x] Add license file
-- [ ] Add NuGet package
+- [x] Add NuGet package
 - [ ] Add Changelog
 - [ ] Add structral comments for methods
 - [ ] Add tests
