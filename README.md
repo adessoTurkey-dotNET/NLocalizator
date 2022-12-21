@@ -239,7 +239,7 @@ Project Link: [https://github.com/tolgacakir/NLocalizator](https://github.com/to
 [issues-shield]: https://img.shields.io/github/issues/tolgacakir/NLocalizator.svg?style=for-the-badge
 [issues-url]: https://github.com/tolgacakir/NLocalizator/issues
 [license-shield]: https://img.shields.io/github/license/tolgacakir/NLocalizator.svg?style=for-the-badge
-[license-url]: https://github.com/tolgacakir/NLocalizator/blob/master/LICENSE.txt
+[license-url]: https://github.com/tolgacakir/NLocalizator/blob/main/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/tolgacakirx
 [product-screenshot]: images/screenshot.png
