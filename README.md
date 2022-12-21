@@ -9,7 +9,6 @@
 [![Issues][issues-shield]][issues-url]
 [![NuGet][nuget-shield]][nuget-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -221,6 +220,8 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 
 <!-- CONTACT -->
 ## Contact
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 Tolga Çakır - tolgacakirx@gmail.com
 
