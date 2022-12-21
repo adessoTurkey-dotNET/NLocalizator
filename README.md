@@ -7,6 +7,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
+[![NuGet][nuget-shield]][nuget-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -76,7 +77,7 @@ This tool allows you to build a localization structure whose content can be chan
 ### Built With
 
 
-* [![.Net][.Net]][.Net-url]
+* [![.Net]][.Net-shield]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -244,4 +245,6 @@ Project Link: [https://github.com/tolgacakir/NLocalizator](https://github.com/to
 [linkedin-url]: https://linkedin.com/in/tolgacakirx
 [product-screenshot]: images/screenshot.png
 [.Net]: https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white
-[.Net-url]: https://img.shields.io/badge/.NET-5C2D91?
+[.Net-shield]: https://img.shields.io/badge/.NET-5C2D91?
+[nuget-shield]: https://img.shields.io/nuget/v/NLocalizator?style=for-the-badge
+[nuget-url]: https://www.nuget.org/packages/NLocalizator
