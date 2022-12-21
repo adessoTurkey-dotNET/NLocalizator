@@ -76,7 +76,7 @@ This tool allows you to build a localization structure whose content can be chan
 ### Built With
 
 
-* [![.Net]][.Net-shield]
+[![.Net]][.Net-shield]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
