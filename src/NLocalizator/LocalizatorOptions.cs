@@ -1,3 +1,5 @@
+namespace NLocalizator;
+
 public class LocalizatorOptions<T> where T: ILocalizationBook
 {
     public int Id { get; set; }

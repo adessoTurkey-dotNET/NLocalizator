@@ -2,8 +2,9 @@ using System.Text;
 using System.Text.Json;
 using Microsoft.Extensions.Options;
 
-//TODO: concurrent okuma
+namespace NLocalizator;
 
+//TODO: concurrent okuma
 public class Localizator<T> : ILocalizator<T> where T: ILocalizationBook
 {
     public T LocalizationBook { get; private set;}

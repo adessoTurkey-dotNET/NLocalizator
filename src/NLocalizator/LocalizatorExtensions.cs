@@ -1,6 +1,8 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
 
+namespace NLocalizator;
+
 public static class LocalizatorExtensions
 {
     public static void AddLocalizator<T>(this IServiceCollection services, IConfiguration configuration)
