@@ -91,18 +91,17 @@ This tool allows you to build a localization structure whose content can be chan
 
 ### Installation
 
-1. Add NLocalizator NuGet package to your project
-   
-   ```sh
-   dotnet add package NLocalizator
-   ```
+* Add NLocalizator NuGet package to your project 
+```sh
+dotnet add package NLocalizator
+```
 
 <!-- USAGE EXAMPLES -->
 ### Usage
 
 ##### Create Language Files
 
-Create `lang-name.json` file in project directory. This file name is in use configuration of the tool.
+Create `*lang-name*.json` file in project directory. This file name is in use configuration of the tool.
 
 For example `tr.json` file:
 ```json
@@ -120,6 +119,8 @@ For example `tr.json` file:
 ##### Create The LocalizationBook
 
 ```csharp
+using NLocalizator;
+
 public class DaysLocalizationBook : ILocalizationBook
 {
     public string Monday { get; set; }
@@ -135,6 +136,8 @@ public class DaysLocalizationBook : ILocalizationBook
 ##### Dependency Injection
 
 ```csharp
+using NLocalizator;
+
 builder.Services.AddLocalizator<DaysLocalizationBook>(options =>
     options.AddFolderPath(@"*the_folder_path_that_contains_tr.json_file*")
     .AddLanguage("tr"));
@@ -143,6 +146,8 @@ builder.Services.AddLocalizator<DaysLocalizationBook>(options =>
 ##### Call the Localizator
 
 ```csharp
+using NLocalizator;
+
 public class WeatherForecastController : ControllerBase
 {
     private readonly Localizator<DaysLocalizationBook> _daysLocalizator;
@@ -163,6 +168,33 @@ public class WeatherForecastController : ControllerBase
 
         return today;
     }
+}
+```
+
+##### Change The Language
+
+* Make sure the new `*lang-name*.json` file be in the same folder with `tr.json`
+
+`de.json` file:
+```json
+{
+	"Monday" : "Montag",
+	"Tuesday" : "Deinstag",
+	"Wednesday" : "Mittwoch",
+	"Thursday" : "Donnerstag",
+	"Friday" : "Freitag",
+	"Saturday" : "Samstag",
+	"Sunday" : "Sonntag"
+}
+```
+
+* Create a new post method in the controller
+```csharp
+[HttpPost(Name = "SetLanguageToGerman")]
+public bool SetLanguageToGerman()
+{
+    _daysLocalizator.ChangeLanguage("de");
+    return true;
 }
 ```
 
