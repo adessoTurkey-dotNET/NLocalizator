@@ -1,3 +1,5 @@
+using NLocalizator;
+
 public class DaysLocalizationBook : ILocalizationBook
 {
     public string Monday { get; set; }
