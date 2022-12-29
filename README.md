@@ -15,7 +15,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <!-- <a href="https://github.com/tolgacakir/NLocalizator">
+  <!-- <a href="https://github.com/adessoTurkey-dotNET/NLocalizator">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a> -->
 
@@ -24,14 +24,14 @@
   <p align="center">
     A Run-Time Localization Tool
     <br />
-    <a href="https://github.com/tolgacakir/NLocalizator/blob/main/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/adessoTurkey-dotNET/NLocalizator/blob/main/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/tolgacakir/NLocalizator/tree/main/samples/NLocalizator.Sample">View Demo</a>
+    <a href="https://github.com/adessoTurkey-dotNET/NLocalizator/tree/main/samples/NLocalizator.Sample">View Demo</a>
     ·
-    <a href="https://github.com/tolgacakir/NLocalizator/issues">Report Bug</a>
+    <a href="https://github.com/adessoTurkey-dotNET/NLocalizator/issues">Report Bug</a>
     ·
-    <a href="https://github.com/tolgacakir/NLocalizator/issues">Request Feature</a>
+    <a href="https://github.com/adessoTurkey-dotNET/NLocalizator/issues">Request Feature</a>
   </p>
 </div>
 
@@ -198,7 +198,7 @@ public bool SetLanguageToGerman()
 }
 ```
 
-_For more examples, please refer to the [Sample Project](https://github.com/tolgacakir/NLocalizator/tree/main/samples/NLocalizator.Sample)_
+_For more examples, please refer to the [Sample Project](https://github.com/adessoTurkey-dotNET/NLocalizator/tree/main/samples/NLocalizator.Sample)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -257,23 +257,23 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 
 Tolga Çakır - tolgacakirx@gmail.com
 
-Project Link: [https://github.com/tolgacakir/NLocalizator](https://github.com/tolgacakir/NLocalizator)
+Project Link: [https://github.com/adessoTurkey-dotNET/NLocalizator](https://github.com/adessoTurkey-dotNET/NLocalizator)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/tolgacakir/NLocalizator.svg?style=for-the-badge
-[contributors-url]: https://github.com/tolgacakir/NLocalizator/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/tolgacakir/NLocalizator.svg?style=for-the-badge
-[forks-url]: https://github.com/tolgacakir/NLocalizator/network/members
-[stars-shield]: https://img.shields.io/github/stars/tolgacakir/NLocalizator.svg?style=for-the-badge
-[stars-url]: https://github.com/tolgacakir/NLocalizator/stargazers
-[issues-shield]: https://img.shields.io/github/issues/tolgacakir/NLocalizator.svg?style=for-the-badge
-[issues-url]: https://github.com/tolgacakir/NLocalizator/issues
-[license-shield]: https://img.shields.io/github/license/tolgacakir/NLocalizator.svg?style=for-the-badge
-[license-url]: https://github.com/tolgacakir/NLocalizator/blob/main/LICENSE.md
+[contributors-shield]: https://img.shields.io/github/contributors/adessoTurkey-dotNET/NLocalizator.svg?style=for-the-badge
+[contributors-url]: https://github.com/adessoTurkey-dotNET/NLocalizator/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/adessoTurkey-dotNET/NLocalizator.svg?style=for-the-badge
+[forks-url]: https://github.com/adessoTurkey-dotNET/NLocalizator/network/members
+[stars-shield]: https://img.shields.io/github/stars/adessoTurkey-dotNET/NLocalizator.svg?style=for-the-badge
+[stars-url]: https://github.com/adessoTurkey-dotNET/NLocalizator/stargazers
+[issues-shield]: https://img.shields.io/github/issues/adessoTurkey-dotNET/NLocalizator.svg?style=for-the-badge
+[issues-url]: https://github.com/adessoTurkey-dotNET/NLocalizator/issues
+[license-shield]: https://img.shields.io/github/license/adessoTurkey-dotNET/NLocalizator.svg?style=for-the-badge
+[license-url]: https://github.com/adessoTurkey-dotNET/NLocalizator/blob/main/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/tolgacakirx
 [product-screenshot]: images/screenshot.png
